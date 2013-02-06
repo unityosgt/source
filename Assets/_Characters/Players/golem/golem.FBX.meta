@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 8ba535c70bbcf7b46b0cba1188faae47
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: Ice Golem
+    7400000: Take 001 //// golem
+    7400002: idle //// golem
+    7400004: walk //// golem
+    7400006: run //// golem
+    7400008: jump //// golem
+    7400010: punch //// golem
+    7400012: idle0 //// golem
+    7400014: hpunch //// golem
+    7400016: hit //// golem
+    7400018: faint //// golem
+    7400020: death //// golem
+    7400022: idle //// Bip001
+    7400024: walk //// Bip001
+    7400026: run //// Bip001
+    7400028: jump //// Bip001
+    7400030: punch //// Bip001
+    7400032: hpunch //// Bip001
+    7400034: hit //// Bip001
+    7400036: faint //// Bip001
+    7400038: death //// Bip001
+    7400040: idle //// Bip001 Footsteps
+    7400042: walk //// Bip001 Footsteps
+    7400044: run //// Bip001 Footsteps
+    7400046: jump //// Bip001 Footsteps
+    7400048: punch //// Bip001 Footsteps
+    7400050: hpunch //// Bip001 Footsteps
+    7400052: hit //// Bip001 Footsteps
+    7400054: faint //// Bip001 Footsteps
+    7400056: death //// Bip001 Footsteps
+    7400058: idle //// Bip001 Pelvis
+    7400060: walk //// Bip001 Pelvis
+    7400062: run //// Bip001 Pelvis
+    7400064: jump //// Bip001 Pelvis
+    7400066: punch //// Bip001 Pelvis
+    7400068: hpunch //// Bip001 Pelvis
+    7400070: hit //// Bip001 Pelvis
+    7400072: faint //// Bip001 Pelvis
+    7400074: death //// Bip001 Pelvis
+    7400076: idle //// Bip001 Spine
+    7400078: walk //// Bip001 Spine
+    7400080: run //// Bip001 Spine
+    7400082: jump //// Bip001 Spine
+    7400084: punch //// Bip001 Spine
+    7400086: hpunch //// Bip001 Spine
+    7400088: hit //// Bip001 Spine
+    7400090: faint //// Bip001 Spine
+    7400092: death //// Bip001 Spine
+    7400094: idle //// Bip001 Spine1
+    7400096: walk //// Bip001 Spine1
+    7400098: run //// Bip001 Spine1
+    7400100: jump //// Bip001 Spine1
+    7400102: punch //// Bip001 Spine1
+    7400104: hpunch //// Bip001 Spine1
+    7400106: hit //// Bip001 Spine1
+    7400108: faint //// Bip001 Spine1
+    7400110: death //// Bip001 Spine1
+    7400112: idle //// Bip001 Spine2
+    7400114: walk //// Bip001 Spine2
+    7400116: run //// Bip001 Spine2
+    7400118: jump //// Bip001 Spine2
+    7400120: punch //// Bip001 Spine2
+    7400122: hpunch //// Bip001 Spine2
+    7400124: hit //// Bip001 Spine2
+    7400126: faint //// Bip001 Spine2
+    7400128: death //// Bip001 Spine2
+    7400130: idle //// Bip001 Spine3
+    7400132: walk //// Bip001 Spine3
+    7400134: run //// Bip001 Spine3
+    7400136: jump //// Bip001 Spine3
+    7400138: punch //// Bip001 Spine3
+    7400140: hpunch //// Bip001 Spine3
+    7400142: hit //// Bip001 Spine3
+    7400144: faint //// Bip001 Spine3
+    7400146: death //// Bip001 Spine3
+    7400148: idle //// Bip001 Neck
+    7400150: walk //// Bip001 Neck
+    7400152: run //// Bip001 Neck
+    7400154: jump //// Bip001 Neck
+    7400156: punch //// Bip001 Neck
+    7400158: hpunch //// Bip001 Neck
+    7400160: hit //// Bip001 Neck
+    7400162: faint //// Bip001 Neck
+    7400164: death //// Bip001 Neck
+    7400166: idle //// Bip001 Head
+    7400168: walk //// Bip001 Head
+    7400170: run //// Bip001 Head
+    7400172: jump //// Bip001 Head
+    7400174: punch //// Bip001 Head
+    7400176: hpunch //// Bip001 Head
+    7400178: hit //// Bip001 Head
+    7400180: faint //// Bip001 Head
+    7400182: death //// Bip001 Head
+    7400184: idle //// Bip001 Ponytail1
+    7400186: walk //// Bip001 Ponytail1
+    7400188: run //// Bip001 Ponytail1
+    7400190: jump //// Bip001 Ponytail1
+    7400192: punch //// Bip001 Ponytail1
+    7400194: hpunch //// Bip001 Ponytail1
+    7400196: hit //// Bip001 Ponytail1
+    7400198: faint //// Bip001 Ponytail1
+    7400200: death //// Bip001 Ponytail1
+    7400202: idle //// Bip001 R Clavicle
+    7400204: walk //// Bip001 R Clavicle
+    7400206: run //// Bip001 R Clavicle
+    7400208: jump //// Bip001 R Clavicle
+    7400210: punch //// Bip001 R Clavicle
+    7400212: hpunch //// Bip001 R Clavicle
+    7400214: hit //// Bip001 R Clavicle
+    7400216: faint //// Bip001 R Clavicle
+    7400218: death //// Bip001 R Clavicle
+    7400220: idle //// Bip001 R UpperArm
+    7400222: walk //// Bip001 R UpperArm
+    7400224: run //// Bip001 R UpperArm
+    7400226: jump //// Bip001 R UpperArm
+    7400228: punch //// Bip001 R UpperArm
+    7400230: hpunch //// Bip001 R UpperArm
+    7400232: hit //// Bip001 R UpperArm
+    7400234: faint //// Bip001 R UpperArm
+    7400236: death //// Bip001 R UpperArm
+    7400238: idle //// Bip001 R Forearm
+    7400240: walk //// Bip001 R Forearm
+    7400242: run //// Bip001 R Forearm
+    7400244: jump //// Bip001 R Forearm
+    7400246: punch //// Bip001 R Forearm
+    7400248: hpunch //// Bip001 R Forearm
+    7400250: hit //// Bip001 R Forearm
+    7400252: faint //// Bip001 R Forearm
+    7400254: death //// Bip001 R Forearm
+    7400256: idle //// Bip001 R Hand
+    7400258: walk //// Bip001 R Hand
+    7400260: run //// Bip001 R Hand
+    7400262: jump //// Bip001 R Hand
+    7400264: punch //// Bip001 R Hand
+    7400266: hpunch //// Bip001 R Hand
+    7400268: hit //// Bip001 R Hand
+    7400270: faint //// Bip001 R Hand
+    7400272: death //// Bip001 R Hand
+    7400274: idle //// Bip001 R Finger0
+    7400276: walk //// Bip001 R Finger0
+    7400278: run //// Bip001 R Finger0
+    7400280: jump //// Bip001 R Finger0
+    7400282: punch //// Bip001 R Finger0
+    7400284: hpunch //// Bip001 R Finger0
+    7400286: hit //// Bip001 R Finger0
+    7400288: faint //// Bip001 R Finger0
+    7400290: death //// Bip001 R Finger0
+    7400292: idle //// Bip001 R Finger01
+    7400294: walk //// Bip001 R Finger01
+    7400296: run //// Bip001 R Finger01
+    7400298: jump //// Bip001 R Finger01
+    7400300: punch //// Bip001 R Finger01
+    7400302: hpunch //// Bip001 R Finger01
+    7400304: hit //// Bip001 R Finger01
+    7400306: faint //// Bip001 R Finger01
+    7400308: death //// Bip001 R Finger01
+    7400310: idle //// Bip001 R Finger1
+    7400312: walk //// Bip001 R Finger1
+    7400314: run //// Bip001 R Finger1
+    7400316: jump //// Bip001 R Finger1
+    7400318: punch //// Bip001 R Finger1
+    7400320: hpunch //// Bip001 R Finger1
+    7400322: hit //// Bip001 R Finger1
+    7400324: faint //// Bip001 R Finger1
+    7400326: death //// Bip001 R Finger1
+    7400328: idle //// Bip001 R Finger11
+    7400330: walk //// Bip001 R Finger11
+    7400332: run //// Bip001 R Finger11
+    7400334: jump //// Bip001 R Finger11
+    7400336: punch //// Bip001 R Finger11
+    7400338: hpunch //// Bip001 R Finger11
+    7400340: hit //// Bip001 R Finger11
+    7400342: faint //// Bip001 R Finger11
+    7400344: death //// Bip001 R Finger11
+    7400346: idle //// Bip001 R Finger2
+    7400348: walk //// Bip001 R Finger2
+    7400350: run //// Bip001 R Finger2
+    7400352: jump //// Bip001 R Finger2
+    7400354: punch //// Bip001 R Finger2
+    7400356: hpunch //// Bip001 R Finger2
+    7400358: hit //// Bip001 R Finger2
+    7400360: faint //// Bip001 R Finger2
+    7400362: death //// Bip001 R Finger2
+    7400364: idle //// Bip001 R Finger21
+    7400366: walk //// Bip001 R Finger21
+    7400368: run //// Bip001 R Finger21
+    7400370: jump //// Bip001 R Finger21
+    7400372: punch //// Bip001 R Finger21
+    7400374: hpunch //// Bip001 R Finger21
+    7400376: hit //// Bip001 R Finger21
+    7400378: faint //// Bip001 R Finger21
+    7400380: death //// Bip001 R Finger21
+    7400382: idle //// Bip001 R Finger3
+    7400384: walk //// Bip001 R Finger3
+    7400386: run //// Bip001 R Finger3
+    7400388: jump //// Bip001 R Finger3
+    7400390: punch //// Bip001 R Finger3
+    7400392: hpunch //// Bip001 R Finger3
+    7400394: hit //// Bip001 R Finger3
+    7400396: faint //// Bip001 R Finger3
+    7400398: death //// Bip001 R Finger3
+    7400400: idle //// Bip001 R Finger31
+    7400402: walk //// Bip001 R Finger31
+    7400404: run //// Bip001 R Finger31
+    7400406: jump //// Bip001 R Finger31
+    7400408: punch //// Bip001 R Finger31
+    7400410: hpunch //// Bip001 R Finger31
+    7400412: hit //// Bip001 R Finger31
+    7400414: faint //// Bip001 R Finger31
+    7400416: death //// Bip001 R Finger31
+    7400418: idle //// Bip001 R Finger4
+    7400420: walk //// Bip001 R Finger4
+    7400422: run //// Bip001 R Finger4
+    7400424: jump //// Bip001 R Finger4
+    7400426: punch //// Bip001 R Finger4
+    7400428: hpunch //// Bip001 R Finger4
+    7400430: hit //// Bip001 R Finger4
+    7400432: faint //// Bip001 R Finger4
+    7400434: death //// Bip001 R Finger4
+    7400436: idle //// Bip001 R Finger41
+    7400438: walk //// Bip001 R Finger41
+    7400440: run //// Bip001 R Finger41
+    7400442: jump //// Bip001 R Finger41
+    7400444: punch //// Bip001 R Finger41
+    7400446: hpunch //// Bip001 R Finger41
+    7400448: hit //// Bip001 R Finger41
+    7400450: faint //// Bip001 R Finger41
+    7400452: death //// Bip001 R Finger41
+    7400454: idle //// Bip001 L Clavicle
+    7400456: walk //// Bip001 L Clavicle
+    7400458: run //// Bip001 L Clavicle
+    7400460: jump //// Bip001 L Clavicle
+    7400462: punch //// Bip001 L Clavicle
+    7400464: hpunch //// Bip001 L Clavicle
+    7400466: hit //// Bip001 L Clavicle
+    7400468: faint //// Bip001 L Clavicle
+    7400470: death //// Bip001 L Clavicle
+    7400472: idle //// Bip001 L UpperArm
+    7400474: walk //// Bip001 L UpperArm
+    7400476: run //// Bip001 L UpperArm
+    7400478: jump //// Bip001 L UpperArm
+    7400480: punch //// Bip001 L UpperArm
+    7400482: hpunch //// Bip001 L UpperArm
+    7400484: hit //// Bip001 L UpperArm
+    7400486: faint //// Bip001 L UpperArm
+    7400488: death //// Bip001 L UpperArm
+    7400490: idle //// Bip001 L Forearm
+    7400492: walk //// Bip001 L Forearm
+    7400494: run //// Bip001 L Forearm
+    7400496: jump //// Bip001 L Forearm
+    7400498: punch //// Bip001 L Forearm
+    7400500: hpunch //// Bip001 L Forearm
+    7400502: hit //// Bip001 L Forearm
+    7400504: faint //// Bip001 L Forearm
+    7400506: death //// Bip001 L Forearm
+    7400508: idle //// Bip001 L Hand
+    7400510: walk //// Bip001 L Hand
+    7400512: run //// Bip001 L Hand
+    7400514: jump //// Bip001 L Hand
+    7400516: punch //// Bip001 L Hand
+    7400518: hpunch //// Bip001 L Hand
+    7400520: hit //// Bip001 L Hand
+    7400522: faint //// Bip001 L Hand
+    7400524: death //// Bip001 L Hand
+    7400526: idle //// Bip001 L Finger0
+    7400528: walk //// Bip001 L Finger0
+    7400530: run //// Bip001 L Finger0
+    7400532: jump //// Bip001 L Finger0
+    7400534: punch //// Bip001 L Finger0
+    7400536: hpunch //// Bip001 L Finger0
+    7400538: hit //// Bip001 L Finger0
+    7400540: faint //// Bip001 L Finger0
+    7400542: death //// Bip001 L Finger0
+    7400544: idle //// Bip001 L Finger01
+    7400546: walk //// Bip001 L Finger01
+    7400548: run //// Bip001 L Finger01
+    7400550: jump //// Bip001 L Finger01
+    7400552: punch //// Bip001 L Finger01
+    7400554: hpunch //// Bip001 L Finger01
+    7400556: hit //// Bip001 L Finger01
+    7400558: faint //// Bip001 L Finger01
+    7400560: death //// Bip001 L Finger01
+    7400562: idle //// Bip001 L Finger1
+    7400564: walk //// Bip001 L Finger1
+    7400566: run //// Bip001 L Finger1
+    7400568: jump //// Bip001 L Finger1
+    7400570: punch //// Bip001 L Finger1
+    7400572: hpunch //// Bip001 L Finger1
+    7400574: hit //// Bip001 L Finger1
+    7400576: faint //// Bip001 L Finger1
+    7400578: death //// Bip001 L Finger1
+    7400580: idle //// Bip001 L Finger11
+    7400582: walk //// Bip001 L Finger11
+    7400584: run //// Bip001 L Finger11
+    7400586: jump //// Bip001 L Finger11
+    7400588: punch //// Bip001 L Finger11
+    7400590: hpunch //// Bip001 L Finger11
+    7400592: hit //// Bip001 L Finger11
+    7400594: faint //// Bip001 L Finger11
+    7400596: death //// Bip001 L Finger11
+    7400598: idle //// Bip001 L Finger2
+    7400600: walk //// Bip001 L Finger2
+    7400602: run //// Bip001 L Finger2
+    7400604: jump //// Bip001 L Finger2
+    7400606: punch //// Bip001 L Finger2
+    7400608: hpunch //// Bip001 L Finger2
+    7400610: hit //// Bip001 L Finger2
+    7400612: faint //// Bip001 L Finger2
+    7400614: death //// Bip001 L Finger2
+    7400616: idle //// Bip001 L Finger21
+    7400618: walk //// Bip001 L Finger21
+    7400620: run //// Bip001 L Finger21
+    7400622: jump //// Bip001 L Finger21
+    7400624: punch //// Bip001 L Finger21
+    7400626: hpunch //// Bip001 L Finger21
+    7400628: hit //// Bip001 L Finger21
+    7400630: faint //// Bip001 L Finger21
+    7400632: death //// Bip001 L Finger21
+    7400634: idle //// Bip001 L Finger3
+    7400636: walk //// Bip001 L Finger3
+    7400638: run //// Bip001 L Finger3
+    7400640: jump //// Bip001 L Finger3
+    7400642: punch //// Bip001 L Finger3
+    7400644: hpunch //// Bip001 L Finger3
+    7400646: hit //// Bip001 L Finger3
+    7400648: faint //// Bip001 L Finger3
+    7400650: death //// Bip001 L Finger3
+    7400652: idle //// Bip001 L Finger31
+    7400654: walk //// Bip001 L Finger31
+    7400656: run //// Bip001 L Finger31
+    7400658: jump //// Bip001 L Finger31
+    7400660: punch //// Bip001 L Finger31
+    7400662: hpunch //// Bip001 L Finger31
+    7400664: hit //// Bip001 L Finger31
+    7400666: faint //// Bip001 L Finger31
+    7400668: death //// Bip001 L Finger31
+    7400670: idle //// Bip001 L Finger4
+    7400672: walk //// Bip001 L Finger4
+    7400674: run //// Bip001 L Finger4
+    7400676: jump //// Bip001 L Finger4
+    7400678: punch //// Bip001 L Finger4
+    7400680: hpunch //// Bip001 L Finger4
+    7400682: hit //// Bip001 L Finger4
+    7400684: faint //// Bip001 L Finger4
+    7400686: death //// Bip001 L Finger4
+    7400688: idle //// Bip001 L Finger41
+    7400690: walk //// Bip001 L Finger41
+    7400692: run //// Bip001 L Finger41
+    7400694: jump //// Bip001 L Finger41
+    7400696: punch //// Bip001 L Finger41
+    7400698: hpunch //// Bip001 L Finger41
+    7400700: hit //// Bip001 L Finger41
+    7400702: faint //// Bip001 L Finger41
+    7400704: death //// Bip001 L Finger41
+    7400706: idle //// Bip001 L Thigh
+    7400708: walk //// Bip001 L Thigh
+    7400710: run //// Bip001 L Thigh
+    7400712: jump //// Bip001 L Thigh
+    7400714: punch //// Bip001 L Thigh
+    7400716: hpunch //// Bip001 L Thigh
+    7400718: hit //// Bip001 L Thigh
+    7400720: faint //// Bip001 L Thigh
+    7400722: death //// Bip001 L Thigh
+    7400724: idle //// Bip001 L Calf
+    7400726: walk //// Bip001 L Calf
+    7400728: run //// Bip001 L Calf
+    7400730: jump //// Bip001 L Calf
+    7400732: punch //// Bip001 L Calf
+    7400734: hpunch //// Bip001 L Calf
+    7400736: hit //// Bip001 L Calf
+    7400738: faint //// Bip001 L Calf
+    7400740: death //// Bip001 L Calf
+    7400742: idle //// Bip001 L Foot
+    7400744: walk //// Bip001 L Foot
+    7400746: run //// Bip001 L Foot
+    7400748: jump //// Bip001 L Foot
+    7400750: punch //// Bip001 L Foot
+    7400752: hpunch //// Bip001 L Foot
+    7400754: hit //// Bip001 L Foot
+    7400756: faint //// Bip001 L Foot
+    7400758: death //// Bip001 L Foot
+    7400760: idle //// Bip001 L Toe0
+    7400762: walk //// Bip001 L Toe0
+    7400764: run //// Bip001 L Toe0
+    7400766: jump //// Bip001 L Toe0
+    7400768: punch //// Bip001 L Toe0
+    7400770: hpunch //// Bip001 L Toe0
+    7400772: hit //// Bip001 L Toe0
+    7400774: faint //// Bip001 L Toe0
+    7400776: death //// Bip001 L Toe0
+    7400778: idle //// Bip001 R Thigh
+    7400780: walk //// Bip001 R Thigh
+    7400782: run //// Bip001 R Thigh
+    7400784: jump //// Bip001 R Thigh
+    7400786: punch //// Bip001 R Thigh
+    7400788: hpunch //// Bip001 R Thigh
+    7400790: hit //// Bip001 R Thigh
+    7400792: faint //// Bip001 R Thigh
+    7400794: death //// Bip001 R Thigh
+    7400796: idle //// Bip001 R Calf
+    7400798: walk //// Bip001 R Calf
+    7400800: run //// Bip001 R Calf
+    7400802: jump //// Bip001 R Calf
+    7400804: punch //// Bip001 R Calf
+    7400806: hpunch //// Bip001 R Calf
+    7400808: hit //// Bip001 R Calf
+    7400810: faint //// Bip001 R Calf
+    7400812: death //// Bip001 R Calf
+    7400814: idle //// Bip001 R Foot
+    7400816: walk //// Bip001 R Foot
+    7400818: run //// Bip001 R Foot
+    7400820: jump //// Bip001 R Foot
+    7400822: punch //// Bip001 R Foot
+    7400824: hpunch //// Bip001 R Foot
+    7400826: hit //// Bip001 R Foot
+    7400828: faint //// Bip001 R Foot
+    7400830: death //// Bip001 R Foot
+    7400832: idle //// Bip001 R Toe0
+    7400834: walk //// Bip001 R Toe0
+    7400836: run //// Bip001 R Toe0
+    7400838: jump //// Bip001 R Toe0
+    7400840: punch //// Bip001 R Toe0
+    7400842: hpunch //// Bip001 R Toe0
+    7400844: hit //// Bip001 R Toe0
+    7400846: faint //// Bip001 R Toe0
+    7400848: death //// Bip001 R Toe0
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: idle
+      firstFrame: 1
+      lastFrame: 59
+      wrapMode: 2
+      loop: 1
+    - name: walk
+      firstFrame: 62
+      lastFrame: 91
+      wrapMode: 1
+      loop: 0
+    - name: run
+      firstFrame: 92
+      lastFrame: 116
+      wrapMode: 1
+      loop: 0
+    - name: jump
+      firstFrame: 117
+      lastFrame: 167
+      wrapMode: 1
+      loop: 0
+    - name: punch
+      firstFrame: 168
+      lastFrame: 185
+      wrapMode: 1
+      loop: 0
+    - name: hpunch
+      firstFrame: 186
+      lastFrame: 216
+      wrapMode: 1
+      loop: 0
+    - name: hit
+      firstFrame: 217
+      lastFrame: 234
+      wrapMode: 1
+      loop: 0
+    - name: faint
+      firstFrame: 235
+      lastFrame: 275
+      wrapMode: 1
+      loop: 0
+    - name: death
+      firstFrame: 276
+      lastFrame: 318
+      wrapMode: 8
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 111
+        second: 605fa900
+    Bip001:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    Bip001 Footsteps:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+    Bip001 Head:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    Bip001 HeadNub:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    Bip001 L Calf:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    Bip001 L Clavicle:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+    Bip001 L Finger0:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    Bip001 L Finger01:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+    Bip001 L Finger0Nub:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    Bip001 L Finger1:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    Bip001 L Finger11:
+      data:
+        first: 1
+        second: 18870100
+      data:
+        first: 4
+        second: f81a0600
+    Bip001 L Finger1Nub:
+      data:
+        first: 1
+        second: 16870100
+      data:
+        first: 4
+        second: f61a0600
+    Bip001 L Finger2:
+      data:
+        first: 1
+        second: 14870100
+      data:
+        first: 4
+        second: f41a0600
+    Bip001 L Finger21:
+      data:
+        first: 1
+        second: 12870100
+      data:
+        first: 4
+        second: f21a0600
+    Bip001 L Finger2Nub:
+      data:
+        first: 1
+        second: 10870100
+      data:
+        first: 4
+        second: f01a0600
+    Bip001 L Finger3:
+      data:
+        first: 1
+        second: 0e870100
+      data:
+        first: 4
+        second: ee1a0600
+    Bip001 L Finger31:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+    Bip001 L Finger3Nub:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+    Bip001 L Finger4:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+    Bip001 L Finger41:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+    Bip001 L Finger4Nub:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+    Bip001 L Foot:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    Bip001 L Forearm:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+    Bip001 L Hand:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    Bip001 L Thigh:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    Bip001 L Toe0:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    Bip001 L Toe0Nub:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+    Bip001 L UpperArm:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+    Bip001 Neck:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+    Bip001 Pelvis:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+    Bip001 Ponytail1:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+    Bip001 Ponytail1Nub:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+    Bip001 R Calf:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    Bip001 R Clavicle:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+    Bip001 R Finger0:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+    Bip001 R Finger01:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+    Bip001 R Finger0Nub:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+    Bip001 R Finger1:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+    Bip001 R Finger11:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+    Bip001 R Finger1Nub:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+    Bip001 R Finger2:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+    Bip001 R Finger21:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+    Bip001 R Finger2Nub:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+    Bip001 R Finger3:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+    Bip001 R Finger31:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+    Bip001 R Finger3Nub:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+    Bip001 R Finger4:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+    Bip001 R Finger41:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+    Bip001 R Finger4Nub:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+    Bip001 R Foot:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    Bip001 R Forearm:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+    Bip001 R Hand:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    Bip001 R Thigh:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    Bip001 R Toe0:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    Bip001 R Toe0Nub:
+      data:
+        first: 1
+        second: 1a870100
+      data:
+        first: 4
+        second: fa1a0600
+    Bip001 R UpperArm:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+    Bip001 Spine:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    Bip001 Spine1:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+    Bip001 Spine2:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    Bip001 Spine3:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    Ice Golem:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 137
+        second: a00bd100
