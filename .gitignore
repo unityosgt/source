@@ -3,4 +3,5 @@
 build/
 # Unity metadata
 Library/
+Temp/
 *.meta
