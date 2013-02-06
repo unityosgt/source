@@ -1,0 +1,1 @@
+Error: Texture file does not exist:  (file: C:\Users\andy\Pictures\diseños\3dmax\MAX\final\textures\MAX.PSD) [ (line 0)]
