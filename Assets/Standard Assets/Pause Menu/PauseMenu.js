@@ -71,22 +71,22 @@ GUI.skin.button.font = pauseMenuFont;
 		//on it again....
 		if(showGraphicsDropDown == true){
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 ,250,50), "Fastest")){
-				QualitySettings.currentLevel = QualityLevel.Fastest;
+				QualitySettings.SetQualityLevel(QualityLevel.Fastest);
 			}
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 50,250,50), "Fast")){
-				QualitySettings.currentLevel = QualityLevel.Fast;
+				QualitySettings.SetQualityLevel(QualityLevel.Fast);
 			}
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 100,250,50), "Simple")){
-				QualitySettings.currentLevel = QualityLevel.Simple;
+				QualitySettings.SetQualityLevel(QualityLevel.Simple);
 			}
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 150,250,50), "Good")){
-				QualitySettings.currentLevel = QualityLevel.Good;
+				QualitySettings.SetQualityLevel(QualityLevel.Good);
 			}
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 200,250,50), "Beautiful")){
-				QualitySettings.currentLevel = QualityLevel.Beautiful;
+				QualitySettings.SetQualityLevel(QualityLevel.Beautiful);
 			}
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 250,250,50), "Fantastic")){
-				QualitySettings.currentLevel = QualityLevel.Fantastic;
+				QualitySettings.SetQualityLevel(QualityLevel.Fantastic);
 			}
 			
 			if(Input.GetKeyDown("escape")){

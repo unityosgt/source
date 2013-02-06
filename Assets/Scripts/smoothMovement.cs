@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class smoothMovement : Photon.MonoBehaviour
+public class SmoothMovement : Photon.MonoBehaviour
 {
 
 

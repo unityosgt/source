@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class randomGameMenu : MonoBehaviour {
+public class RandomGameMenu : MonoBehaviour {
 
 
 	// this script is used to create a simple Lobby menu with a ramndom matchmaking,
