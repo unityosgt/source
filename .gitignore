@@ -1,0 +1,6 @@
+# Xcode
+.DS_Store
+build/
+# Unity metadata
+Library/
+*.meta
